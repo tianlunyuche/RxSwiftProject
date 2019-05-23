@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  RxSwiftProject
 //
-//  Created by 赵庄鑫 on 2018/5/23.
+//  Created by 赵庄鑫 on 2018/2/23.
 //  Copyright © 2018 赵庄鑫. All rights reserved.
 //
 
@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.backgroundColor = .white
+        window.makeKeyAndVisible()
+        
+        let serviceProvider = ZXServiceProvider()
+        let reactor = ZXTaskListViewReactor(provider: serviceProvider)
+        let vc = ZXTaskListViewController(reactor: reactor)
+        let navigationController = UINavigationController(rootViewController: vc)
+        window.rootViewController = navigationController
+        
+        self.window = window
+        
         return true
     }
 

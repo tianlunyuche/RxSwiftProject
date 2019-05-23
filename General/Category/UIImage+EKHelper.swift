@@ -2,7 +2,7 @@
 //  UIImage+EKHelper.swift
 //  EKParent
 //
-//  Created by 赵庄鑫 on 2018/5/14.
+//  Created by 赵庄鑫 on 2018/2/14.
 //  Copyright © 2018 赵庄鑫. All rights reserved.
 //
 

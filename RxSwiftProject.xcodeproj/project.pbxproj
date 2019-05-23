@@ -17,6 +17,14 @@
 		22E5939322964D1D000E02F1 /* RxSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5939222964D1D000E02F1 /* RxSwiftProjectUITests.swift */; };
 		22E593A122964DC0000E02F1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593A022964DC0000E02F1 /* Operators.swift */; };
 		22E593A422964E37000E02F1 /* UIImage+EKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593A322964E37000E02F1 /* UIImage+EKHelper.swift */; };
+		22E593AE2296A723000E02F1 /* ZXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593AD2296A723000E02F1 /* ZXBaseViewController.swift */; };
+		22E593B02296A831000E02F1 /* ZXTaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593AF2296A831000E02F1 /* ZXTaskListViewController.swift */; };
+		22E593B22296AAD8000E02F1 /* ZXTaskListViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593B12296AAD8000E02F1 /* ZXTaskListViewReactor.swift */; };
+		22E593B42296AD15000E02F1 /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593B32296AD15000E02F1 /* ModelType.swift */; };
+		22E593B62296AEC0000E02F1 /* ZXTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593B52296AEC0000E02F1 /* ZXTask.swift */; };
+		22E593B92296B0C1000E02F1 /* ZXServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593B82296B0C1000E02F1 /* ZXServiceProvider.swift */; };
+		22E593BB2296B0FA000E02F1 /* ZXUserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593BA2296B0FA000E02F1 /* ZXUserDefaultsService.swift */; };
+		22E593BD2296B19F000E02F1 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E593BC2296B19F000E02F1 /* UserDefaultsKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,14 @@
 		22E5939422964D1D000E02F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E593A022964DC0000E02F1 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		22E593A322964E37000E02F1 /* UIImage+EKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+EKHelper.swift"; sourceTree = "<group>"; };
+		22E593AD2296A723000E02F1 /* ZXBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXBaseViewController.swift; sourceTree = "<group>"; };
+		22E593AF2296A831000E02F1 /* ZXTaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXTaskListViewController.swift; sourceTree = "<group>"; };
+		22E593B12296AAD8000E02F1 /* ZXTaskListViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXTaskListViewReactor.swift; sourceTree = "<group>"; };
+		22E593B32296AD15000E02F1 /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
+		22E593B52296AEC0000E02F1 /* ZXTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXTask.swift; sourceTree = "<group>"; };
+		22E593B82296B0C1000E02F1 /* ZXServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXServiceProvider.swift; sourceTree = "<group>"; };
+		22E593BA2296B0FA000E02F1 /* ZXUserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXUserDefaultsService.swift; sourceTree = "<group>"; };
+		22E593BC2296B19F000E02F1 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		3983BB3FF3A597D93D17744B /* Pods-RxSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		6224F81F43098203F5AE553C /* Pods-RxSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		88E8BCF9F2CA531C6570CAF5 /* Pods_RxSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +125,7 @@
 		22E5937122964D1B000E02F1 /* RxSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				22E593A52296A6AE000E02F1 /* Todo */,
 				22E5937222964D1B000E02F1 /* AppDelegate.swift */,
 				22E5937422964D1B000E02F1 /* ViewController.swift */,
 				22E593A022964DC0000E02F1 /* Operators.swift */,
@@ -141,9 +158,88 @@
 		22E593A222964E37000E02F1 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				22E593A322964E37000E02F1 /* UIImage+EKHelper.swift */,
+				22E593AA2296A700000E02F1 /* Category */,
+				22E593AC2296A700000E02F1 /* Controller */,
+				22E593AB2296A700000E02F1 /* Model */,
+				22E593A92296A700000E02F1 /* View */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		22E593A52296A6AE000E02F1 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				22E593B72296B0A6000E02F1 /* Service */,
+				22E593A62296A6AE000E02F1 /* Controller */,
+				22E593A72296A6AE000E02F1 /* Model */,
+				22E593A82296A6AE000E02F1 /* View */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		22E593A62296A6AE000E02F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22E593AF2296A831000E02F1 /* ZXTaskListViewController.swift */,
+				22E593B12296AAD8000E02F1 /* ZXTaskListViewReactor.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22E593A72296A6AE000E02F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22E593B32296AD15000E02F1 /* ModelType.swift */,
+				22E593B52296AEC0000E02F1 /* ZXTask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22E593A82296A6AE000E02F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22E593A92296A700000E02F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22E593AA2296A700000E02F1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				22E593A322964E37000E02F1 /* UIImage+EKHelper.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		22E593AB2296A700000E02F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22E593AC2296A700000E02F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22E593AD2296A723000E02F1 /* ZXBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22E593B72296B0A6000E02F1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				22E593B82296B0C1000E02F1 /* ZXServiceProvider.swift */,
+				22E593BA2296B0FA000E02F1 /* ZXUserDefaultsService.swift */,
+				22E593BC2296B19F000E02F1 /* UserDefaultsKey.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		8F6AFEBB2D7C561E3176F6FA /* Frameworks */ = {
@@ -228,6 +324,7 @@
 		22E5936722964D1B000E02F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZX;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "赵庄鑫";
@@ -301,18 +398,32 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CGFloatLiteral/CGFloatLiteral.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReusableKit/ReusableKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGFloatLiteral.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReusableKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,10 +470,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E593BD2296B19F000E02F1 /* UserDefaultsKey.swift in Sources */,
+				22E593B92296B0C1000E02F1 /* ZXServiceProvider.swift in Sources */,
 				22E5937522964D1B000E02F1 /* ViewController.swift in Sources */,
+				22E593B02296A831000E02F1 /* ZXTaskListViewController.swift in Sources */,
+				22E593BB2296B0FA000E02F1 /* ZXUserDefaultsService.swift in Sources */,
+				22E593B22296AAD8000E02F1 /* ZXTaskListViewReactor.swift in Sources */,
 				22E593A422964E37000E02F1 /* UIImage+EKHelper.swift in Sources */,
 				22E5937322964D1B000E02F1 /* AppDelegate.swift in Sources */,
+				22E593B62296AEC0000E02F1 /* ZXTask.swift in Sources */,
+				22E593B42296AD15000E02F1 /* ModelType.swift in Sources */,
 				22E593A122964DC0000E02F1 /* Operators.swift in Sources */,
+				22E593AE2296A723000E02F1 /* ZXBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
